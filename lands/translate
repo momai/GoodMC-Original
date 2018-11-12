@@ -21,7 +21,7 @@ general:
     owner: '&4владелец'
     admin: '&cадмин'
     member: '&eучастник'
-  defaultLandName: '%player%''s Land'
+  defaultLandName: 'Земля %player%'
 gui:
   general:
     back:
@@ -31,28 +31,29 @@ gui:
       name: '&c&lЗакрыть'
       lore: '&7Закрыть окно.'
     previoussite:
-      name: '&c&lPrevious site'
-      lore: '&7Go to previous site.'
+      name: '&c&lПредыдущий сайт'
+      lore: '&7Перейти к предыдущему сайту.'
     nextSite:
-      name: '&a&lNext site'
-      lore: '&7Go to next site.'
+      name: '&a&lСледующий сайт'
+      lore: '&7Перейти к следующему сайту.'
     noAccess:
       name: '&c&l&nВам неразрешено делать это.'
-      lore: '&7Contact the land &cOwner &7for help.'
+      lore: '&7Свящитесь с владельцем земли &cOwner &7для помощи.'
     disabled:
       name: '&c&l&nЭто отключено'
       lore: '&7Администратор отключил это.'
     bypass:
-      name: '&c&l&nBypass needed'
-      lore: '&7You need a bypass permission;;&7to run this action.;;&7Contact an administrator.'
+      name: '&c&l&nТребуется обход'
+      lore: '&7Вам нужно разрешение на обход;;&7для запуска этого действия.;;&7Свяжитесь
+        с администратором.'
     error:
-      name: '&4&l&nError'
+      name: '&4&l&nОшибка'
       lore: '&cВы не можете этого сделать.'
   main:
     title: '&2Меню поселений.'
     lands:
-      name: '&6&l&nLands'
-      lore: '&7Click here to see;;&7all lands you''re in.'
+      name: '&6&l&nЗемли'
+      lore: '&7Нажмите здесь, чтобы увидеть;;&7все ваши территории.'
   lands:
     title: '&2&lLands'
     noLand:
