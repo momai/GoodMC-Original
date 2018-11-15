@@ -15,13 +15,13 @@ general:
     minutes: '&7минут'
     seconds: '&7секунд'
   status:
-    online: '&aOnline'
-    offline: '&cOffline'
+    online: '&aОнлайн'
+    offline: '&cОффлайн'
   role:
     owner: '&4владелец'
     admin: '&cадмин'
     member: '&eучастник'
-  defaultLandName: 'Земля %player%'
+  defaultLandName: 'Поселение %player%'
 gui:
   general:
     back:
@@ -38,7 +38,7 @@ gui:
       lore: '&7Перейти к следующему сайту.'
     noAccess:
       name: '&c&l&nВам неразрешено делать это.'
-      lore: '&7Свящитесь с владельцем земли &cOwner &7для помощи.'
+      lore: '&7Свящитесь с владельцем поселения &cOwner &7для помощи.'
     disabled:
       name: '&c&l&nЭто отключено'
       lore: '&7Администратор отключил это.'
@@ -52,27 +52,27 @@ gui:
   main:
     title: '&2Меню поселений.'
     lands:
-      name: '&6&l&nЗемли'
-      lore: '&7Нажмите здесь, чтобы увидеть;;&7все ваши территории.'
+      name: '&6&l&nПоселения'
+      lore: '&7Нажмите здесь, чтобы увидеть;;&7все ваши поселения.'
   lands:
-    title: '&2&lLands'
+    title: '&2&lПоселение'
     noLand:
-      name: '&c&lNo land to show'
+      name: '&c&lНет поселений, чтобы показать'
       lore: '&7You currently don''t be an;;&7member of an land.;;&7Create one by using
         &8/&aLand create &8<&aName&8>;;&7or just join an land.'
     land:
       lore: '&7World:&e %world%;;&7Chunks:&a %chunks%;;&7Is yours: %owning%'
   land:
-    title: '&2&lLand'
+    title: '&2&lПоселение'
     chunks:
-      name: '&6&l&nChunks'
-      lore: '&7Click here to see;;&7all &achunks &7of this &eland&7.'
+      name: '&6&l&nУчастоки'
+      lore: '&7Нажмите, для просмотра;;&7all &achunks &7of this &eland&7.'
     roles:
-      name: '&6&l&nRoles'
-      lore: '&7Click here to see &amembers &7wich;;&7are trusted in the &ewhole land&7.'
+      name: '&6&l&nРоли'
+      lore: '&7Нажмите, для просмотра &amembers &7wich;;&7are trusted in the &ewhole land&7.'
     invites:
       name: '&6&l&nInvites'
-      lore: '&7Click here to see &ainvites &7wich;;&7trust players in the &ewhole
+      lore: '&7Нажмите, для просмотра &ainvites &7wich;;&7trust players in the &ewhole
         land;;&7or in &esingle chunks&7.'
     rent:
       name: '&6&l&nRent'
@@ -80,27 +80,27 @@ gui:
         trusted in the;;&ewhole land &7and &cnot just in chunks&7,;;&7will pay this.;;;;&7Players
         wich are trusted in the whole land;;&7can be found here at the skull item.'
     settings:
-      name: '&d&lSettings'
+      name: '&d&lНастройки'
       lore: '&7Click here to edit settings of your land.;;&7Only accessible for the;;&4owner
         &7of the land. :)'
     info:
-      name: '&e&lInfo:'
+      name: '&e&lИнформация:'
       lore: '&7Here you can edit:;;&8- &dChunks;;&8- &dMembers;;&8- &dInvites;;&8-
         &dTaxes;;;;&7These settings are for the &cwhole land&7.;;&6You can find chunk
-        specific;;&6settings in the chunks section.;;;;&7Land:&a %land%'
+        specific;;&6settings in the chunks section.;;;;&7Поселение:&a %land%'
   chunks:
-    title: '&6&lChunks'
+    title: '&6&lУчастоки'
     chunk:
       lore: '&7Click here to get more information;;&7about this &achunk&7.'
     info:
-      name: '&6&lInfo:'
-      lore: '&7Here you can see all &echunks;;&7of this land. Click on them to &eedit&7.;;;;&7Land:&a
+      name: '&6&lИнформация:'
+      lore: '&7Here you can see all &echunks;;&7of this land. Click on them to &eedit&7.;;;;&7Поселение:&a
         %land%'
   chunk:
-    title: '&6&lChunk'
+    title: '&6&lУчасток'
     members:
-      name: '&6&l&nRoles'
-      lore: '&7Click here to see;;&7all &amembers &7of this &echunk&7.'
+      name: '&6&l&nРоли'
+      lore: '&7Нажмите, для просмотра;;&7all &amembers &7of this &echunk&7.'
     leave:
       name: '&c&lLeave'
       lore: '&cLeave &7this chunk.'
@@ -108,7 +108,7 @@ gui:
       name: '&d&lTeleport'
       lore: '&dTeleport &7to this chunk.'
     settings:
-      name: '&6&lSettings'
+      name: '&6&lНастройки'
       lore: '&7Click here to adjust &asettings;;&7wich affect this chunk.;;&7You also
         can apply settings to all chunks.'
     rent:
@@ -118,51 +118,51 @@ gui:
         &cwhole land, will not pay this&7.;;;;&7Players wich are trusted in this chunk;;&7can
         be found here at the skull item.'
     info:
-      name: '&e&lInfo:'
+      name: '&e&lИнформация:'
       lore: '&7Here you can:;;&8- &dEdit members;;&8- &dTeleport &7to the chunk;;&8-
         &dLeave &7this chunk;;&8- &7Set chunk &dtaxes;;;;&7This settings affect only
         &cthis chunk&7.;;&6Settings for the whole land can;;&6be found in the land
-        section.;;;;&7Land:&a %land%'
+        section.;;;;&7Поселение:&a %land%'
   roles:
     title:
-      normal: '&5&lRoles'
-      select: '&5&lSelect Role'
+      normal: '&5&lРоли'
+      select: '&5&lSelect Роль'
     owner:
       name: '&4&lOwner&4 %owner%'
       lore: '&7Player&a %owner% &7is the owner;;&7of this objective.;;;;&5Status:
         %status%'
     admins:
       name: '&c&lAdmins'
-      lore: '&7Click here to see;;&7all &cadmins&7.'
+      lore: '&7Нажмите, для просмотра;;&7all &cadmins&7.'
     members:
       name: '&e&lMembers'
-      lore: '&7Click here to see;;&7all &emembers&7.'
+      lore: '&7Нажмите, для просмотра;;&7all &emembers&7.'
     visitors:
       name: '&7&lVisitors'
       lore: '&7Click here to adjust;;&7settings that belong to visitors;;&7of &ethis
         chunk&7.'
     info:
-      name: '&e&lInfo:'
-      lore: '&7Click on the roles to see;;&7the members or &dremove &7them.;;;;&7Land:&a
+      name: '&e&lИнформация:'
+      lore: '&7Click on the roles to see;;&7the members or &dremove &7them.;;;;&7Поселение:&a
         %land%'
   role:
-    title: '&5&lRole'
+    title: '&5&lРоль'
     member:
       lore: '&7Click here to get;;&7more information.'
     group:
-      name: '&5&lRole:'
+      name: '&5&lРоль:'
     roleSettings:
-      name: '&6&lSettings'
+      name: '&6&lНастройки'
       loreChunk: '&7Click to open settings. Here you can;;&7adjust &arestrictions
         &7for &ethis chunk&7.;;&7You also can apply them to all chunks.'
       loreLand: '&7Click to open settings. Here you can;;&7adjust &arestrictions &7for
         &ethis land&7.'
     info:
-      name: '&6&lInfo:'
+      name: '&6&lИнформация:'
       loreAdmins: '&7Here you can see all &cadmins&7.;;;;&7You can edit role permission;;&7at
-        the command block.;;;;&7Click on an player to &dedit &7him.;;;;&7Land:&a %land%'
+        the command block.;;;;&7Click on an player to &dedit &7him.;;;;&7Поселение:&a %land%'
       loreMembers: '&7Here you can see all &emembers&7.;;;;&7You can edit role permission;;&7at
-        the command block.;;;;&7Click on an player to &dedit &7him.;;;;&7Land:&a %land%'
+        the command block.;;;;&7Click on an player to &dedit &7him.;;;;&7Поселение:&a %land%'
   roleMember:
     title: '&5&lRole Member'
     untrust:
@@ -172,35 +172,35 @@ gui:
       self: '&cYou can''t do this with yourself.;;&7You need to use &8/&aLand leave'
     info:
       lore:
-        online: ';;&7Status: &aOnline;;;;&7Lands: %lands%'
-        offline: ';;&cOffline:;;&7Since&5 %status%;;;;&7Lands: %lands%'
+        online: ';;&7Статус: &aOnline;;;;&7Поселениеs: %lands%'
+        offline: ';;&cOffline:;;&7Since&5 %status%;;;;&7Поселениеs: %lands%'
   invites:
     title: '&d&lInvites'
     invite:
       land:
-        lore: '&7Sender:&a %sender%;;&7Sent:&e %time%;;;;&7Rightclick to &drevoke
+        lore: '&7Отправитель:&a %sender%;;&7Отправлено:&e %time%;;;;&7Rightclick to &drevoke
           this invite&7.'
       chunk:
-        lore: '&7This invite belongs to chunk:;;&7X:&a %x% &7Z:&a %z%;;;;&7Sender:&a
-          %sender%;;&7Sent:&e %time%;;;;&7Rightclick to &drevoke this invite&7.'
+        lore: '&7This invite belongs to chunk:;;&7X:&a %x% &7Z:&a %z%;;;;&7Отправитель:&a
+          %sender%;;&7Отправлено:&e %time%;;;;&7Rightclick to &drevoke this invite&7.'
     info:
-      name: '&e&lInfo:'
+      name: '&e&lИнформация:'
       lore: '&7Here you can &erevoke invites&7.;;&7Use &drightclick &7to revoke an
-        invite.;;;;&7Land:&a %land%'
+        invite.;;;;&7Поселение:&a %land%'
   rent:
     title: '&c&lRent'
     plus1:
-      lore: '&7Add&a %value% &7to rent price.'
+      lore: '&7Прибавление&a %value% &7за аренду.'
     plus2:
-      lore: '&7Add&a %value% &7to rent price.'
+      lore: '&7Прибавление&a %value% &7за аренду.'
     plus3:
-      lore: '&7Add&a %value% &7to rent price.'
+      lore: '&7Прибавление&a %value% &7за аренду.'
     minus1:
-      lore: '&7Remove&c %value% &7from rent price.'
+      lore: '&7Отчисление&c %value% &7за аренду.'
     minus2:
-      lore: '&7Remove&c %value% &7from rent price.'
+      lore: '&7Отчисление&c %value% &7за аренду.'
     minus3:
-      lore: '&7Remove&c %value% &7from rent price.'
+      lore: '&7Отчисление&c %value% &7за аренду.'
     info:
       name: '&e&l&nStatus:&a %status%'
       loreLand: '&7Price is total: %total%;;&7Click here to change this.;;&7Next rent:&a
@@ -216,267 +216,267 @@ gui:
         land, will just pay the;;&erent of the land.;;;;&7If price is total, player
         must;;&7only pay the rent for the land;;&7or chunk on land/chunk join.'
   roleSettings:
-    title: '&5&lRole Settings'
+    title: '&5&lRole Настройки'
     notUnlocked:
       name: '&cNot unlocked'
       lore: '&7You have no permission;;&7to edit this setting.'
     applyLand:
-      name: '&dApply to Land'
+      name: '&dApply to Поселение'
       lore: '&7Click here to synchronise the;;&ewhole land &7with these settings.'
     infoChunk:
-      name: '&d&lChunk'
+      name: '&d&lУчасток'
       lore: '&7These settings affect;;&7only &cthis chunk&7.'
     infoLand:
-      name: '&d&lLand'
+      name: '&d&lПоселение'
       lore: '&7These settings affect;;&7the &cwhole land&7.'
     role:
       visitor:
         place:
-          name: '&ePlace'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5build&7?;;;;&7Status:
+          name: '&eУстановить'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5build&7?;;;;&7Статус:
             %status%'
         break:
-          name: '&eBreak'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5break blocks&7?;;;;&7Status:
+          name: '&eРазрушить'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5break blocks&7?;;;;&7Статус:
             %status%'
         interact:
-          name: '&eInteract'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5interact&7?;;;;&7Status:
+          name: '&eВзаимодействовать'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5interact&7?;;;;&7Статус:
             %status%'
         igniteBlocks:
           name: '&eIgnite Blocks'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5ignite
-            blocks&7?;;;;&7Status: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5ignite
+            blocks&7?;;;;&7Статус: %status%'
         combatPvp:
-          name: '&eAttack Players'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5attack
+          name: '&eАтаковать Players'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5attack
             each other&7?;;;;&4Info: &cThey can only attack players;;&cwich can also
-            attack them.;;;;&7Status: %status%'
+            attack them.;;;;&7Статус: %status%'
         combatAnimal:
-          name: '&eAttack Animals'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5attack
-            animals&7?;;;;&7Status: %status%'
+          name: '&eАтаковать Animals'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5attack
+            animals&7?;;;;&7Статус: %status%'
         playerTrust:
-          name: '&eTrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5trust members&7?;;;;&7Status:
+          name: '&eДоверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5trust members&7?;;;;&7Статус:
             %status%'
         playerSetRole:
-          name: '&eSet Role'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5set roles&7?;;;;&4Info:
-            &cOwners can''t be edited.;;;;&7Status: %status%'
+          name: '&eУстановить Роль'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5set roles&7?;;;;&4Info:
+            &cOwners can''t be edited.;;;;&7Статус: %status%'
         playerUntrust:
-          name: '&eUntrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5untrust
-            members&7?;;;;&4Info: &cOwners can''t be untrusted.;;;;&7Status: %status%'
+          name: '&eНе доверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5untrust
+            members&7?;;;;&4Info: &cOwners can''t be untrusted.;;;;&7Статус: %status%'
         landClaim_land:
-          name: '&eClaim Land'
-          lore: '&7Unlocked: %access%;;;;&7Should vistors be able to;;&5claim land&7?;;;;&4Info:
-            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Status:
+          name: '&eСоздать Поселение'
+          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5claim land&7?;;;;&4Info:
+            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Статус:
             %status%'
         playerTrust_land:
-          name: '&eTrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should vistors be able to;;&5trust members
-            &7in the &ewhole land&7?;;;;&7Status: %status%'
+          name: '&eДоверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5trust members
+            &7in the &ewhole land&7?;;;;&7Статус: %status%'
         playerSetRole_land:
-          name: '&eSet Role'
-          lore: '&7Unlocked: %access%;;;;&7Should vistors be able to;;&5set roles
-            &7in the &ewhole land&7?;;;;&4Info: &cOwners can''t be edited.;;;;&7Status:
+          name: '&eУстановить Роль'
+          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5set roles
+            &7in the &ewhole land&7?;;;;&4Info: &cOwners can''t be edited.;;;;&7Статус:
             %status%'
         playerUntrust_land:
-          name: '&eUntrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should vistors be able to;;&5untrust members
-            &7in the &ewhole land&7?;;;;&4Info: &cOwners can''t be untrusted.;;;;&7Status:
+          name: '&eНе доверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5untrust members
+            &7in the &ewhole land&7?;;;;&4Info: &cOwners can''t be untrusted.;;;;&7Статус:
             %status%'
         interact_door:
           name: '&6Open: &eDoors'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5open doors
-            etc.&7?;;;;&7Status: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5open doors
+            etc.&7?;;;;&7Статус: %status%'
         interact_container:
           name: '&6Open: &eContainer'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5open containers&7?;;;;&7Status:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5open containers&7?;;;;&7Статус:
             %status%'
         interact_button:
           name: '&6Interact: &eButtons'
-          lore: '&7Unlocked: %access%;;;;&7Should visitors be;;&7able to &5interact
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5interact
             &7with;;&5buttons&7, &5levers&7, &5plates etc.&7?;;;;&4Info: &cIf allowed,
             visitors;;&cmight be able to open doors.;;&cEven if open doors setting;;&cdisallows
-            it.;;;;&7Status: %status%'
+            it.;;;;&7Статус: %status%'
       member:
         place:
-          name: '&ePlace'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5build&7?;;;;&7Status:
+          name: '&eУстановить'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5build&7?;;;;&7Статус:
             %status%'
         break:
-          name: '&eBreak'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5break blocks&7?;;;;&7Status:
+          name: '&eРазрушить'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5break blocks&7?;;;;&7Статус:
             %status%'
         interact:
-          name: '&eInteract'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5interact&7?;;;;&7Status:
+          name: '&eВзаимодействовать'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5interact&7?;;;;&7Статус:
             %status%'
         igniteBlocks:
           name: '&eIgnite Blocks'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5ignite blocks&7?;;;;&7Status:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5ignite blocks&7?;;;;&7Статус:
             %status%'
         combatPvp:
-          name: '&eAttack Players'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5attack each
+          name: '&eАтаковать Players'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5attack each
             other&7?;;;;&4Info: &cThey can only attack players;;&cwich can also attack
-            them.;;;;&7Status: %status%'
+            them.;;;;&7Статус: %status%'
         combatAnimal:
-          name: '&eAttack Animals'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5attack animals&7?;;;;&7Status:
+          name: '&eАтаковать Animals'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5attack animals&7?;;;;&7Статус:
             %status%'
         playerTrust:
-          name: '&eTrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5trust members&7?;;;;&7Status:
+          name: '&eДоверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5trust members&7?;;;;&7Статус:
             %status%'
         playerSetRole:
-          name: '&eSet Role'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5set roles&7?;;;;&4Info:
-            &cOwners can''t be edited.;;;;&7Status: %status%'
+          name: '&eУстановить Роль'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5set roles&7?;;;;&4Info:
+            &cOwners can''t be edited.;;;;&7Статус: %status%'
         playerUntrust:
-          name: '&eUntrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5untrust
-            members&7?;;;;&4Info: &cOwners can''t be untrusted.;;;;&7Status: %status%'
+          name: '&eНе доверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5untrust
+            members&7?;;;;&4Info: &cOwners can''t be untrusted.;;;;&7Статус: %status%'
         landClaim_land:
-          name: '&eClaim Land'
-          lore: '&7Unlocked: %access%;;;;&7Should members be able to;;&5claim land&7?;;;;&7Info:
-            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Status:
+          name: '&eСоздать Поселение'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5claim land&7?;;;;&7Info:
+            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Статус:
             %status%'
         playerTrust_land:
-          name: '&eTrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should members be able to;;&5trust members
-            &7in the &ewhole land&7?;;;;&7Status: %status%'
+          name: '&eДоверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5trust members
+            &7in the &ewhole land&7?;;;;&7Статус: %status%'
         playerSetRole_land:
-          name: '&eSet Role'
-          lore: '&7Unlocked: %access%;;;;&7Should members be able to;;&5set roles
-            &7in the &ewhole land&7?;;;;&4Info: &cOwners can''t be edited.;;;;&7Status:
+          name: '&eУстановить Роль'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5set roles
+            &7in the &ewhole land&7?;;;;&4Info: &cOwners can''t be edited.;;;;&7Статус:
             %status%'
         playerUntrust_land:
-          name: '&eUntrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should members be able to;;&5untrust members
-            &7in the &ewhole land&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Status:
+          name: '&eНе доверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5untrust members
+            &7in the &ewhole land&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Статус:
             %status%'
         interact_door:
           name: '&6Open: &eDoors'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5open doors
-            etc.&7?;;;;&7Status: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5open doors
+            etc.&7?;;;;&7Статус: %status%'
         interact_container:
           name: '&6Open: &eContainer'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5open containers&7?;;;;&7Status:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5open containers&7?;;;;&7Статус:
             %status%'
         interact_button:
           name: '&6Interact: &eButtons'
-          lore: '&7Unlocked: %access%;;;;&7Should members be;;&7able to &5interact
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5interact
             &7with;;&5buttons&7, &5levers&7, &5plates etc.&7?;;;;&4Info: &cIf allowed,
             members;;&cmight be able to open doors.;;&cEven if open doors setting;;&cdisallows
-            it.;;;;&7Status: %status%'
+            it.;;;;&7Статус: %status%'
       admin:
         place:
-          name: '&ePlace'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5build&7?;;;;&7Status:
+          name: '&eУстановить'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5build&7?;;;;&7Статус:
             %status%'
         break:
-          name: '&eBreak'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5break blocks&7?;;;;&7Status:
+          name: '&eРазрушить'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5break blocks&7?;;;;&7Статус:
             %status%'
         interact:
-          name: '&eInteract'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5interact&7?;;;;&7Status:
+          name: '&eВзаимодействовать'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5interact&7?;;;;&7Статус:
             %status%'
         igniteBlocks:
           name: '&eIgnite Blocks'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5ignite blocks&7?;;;;&7Status:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5ignite blocks&7?;;;;&7Статус:
             %status%'
         combatPvp:
-          name: '&eAttack Players'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5attack each
+          name: '&eАтаковать Players'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5attack each
             other&7?;;;;&4Info: &cThey can only attack players;;&cwich can also attack
-            them.;;;;&7Status: %status%'
+            them.;;;;&7Статус: %status%'
         combatAnimal:
-          name: '&eAttack Animals'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5attack animals&7?;;;;&7Status:
+          name: '&eАтаковать Animals'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5attack animals&7?;;;;&7Статус:
             %status%'
         playerTrust:
-          name: '&eTrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5trust members&7?;;;;&7Status:
+          name: '&eДоверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5trust members&7?;;;;&7Статус:
             %status%'
         playerSetRole:
-          name: '&eSet Role'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5set roles&7?;;;;&4Info:
-            &cOwners can''t be edited.;;;;&7Status: %status%'
+          name: '&eУстановить Роль'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5set roles&7?;;;;&4Info:
+            &cOwners can''t be edited.;;;;&7Статус: %status%'
         playerUntrust:
-          name: '&eUntrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5untrust members&7?;;;;&4Info:
-            &cOwners can''t be untrusted.;;;;&7Status: %status%'
+          name: '&eНе доверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5untrust members&7?;;;;&4Info:
+            &cOwners can''t be untrusted.;;;;&7Статус: %status%'
         landClaim_land:
-          name: '&eClaim Land'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be able to;;&5claim land&7?;;;;&7Info:
-            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Status:
+          name: '&eСоздать Поселение'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы able to;;&5claim land&7?;;;;&7Info:
+            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Статус:
             %status%'
         playerTrust_land:
-          name: '&eTrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be able to;;&5trust members
-            &7in the &ewhole land&7?;;;;&7Status: %status%'
+          name: '&eДоверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы able to;;&5trust members
+            &7in the &ewhole land&7?;;;;&7Статус: %status%'
         playerSetRole_land:
-          name: '&eSet Role'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be able to;;&5set roles &7in
-            the &ewhole land&7?;;;;&4Info: &cOwners can''t be edited.;;;;&7Status:
+          name: '&eУстановить роль'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы able to;;&5set roles &7in
+            the &ewhole land&7?;;;;&4Info: &cOwners can''t be edited.;;;;&7Статус:
             %status%'
         playerUntrust_land:
-          name: '&eUntrust Player'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be able to;;&5untrust members
-            &7in the &ewhole land&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Status:
+          name: '&eНе доверять игроку'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы able to;;&5untrust members
+            &7in the &ewhole land&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Статус:
             %status%'
         interact_door:
           name: '&6Open: &eDoors'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5open doors
-            etc.&7?;;;;&7Status: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5open doors
+            etc.&7?;;;;&7Статус: %status%'
         interact_container:
           name: '&6Open: &eContainer'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5open containers&7?;;;;&7Status:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5open containers&7?;;;;&7Статус:
             %status%'
         interact_button:
           name: '&6Interact: &eButtons'
-          lore: '&7Unlocked: %access%;;;;&7Should admins be;;&7able to &5interact
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли администраторы;;&5interact
             &7with;;&5buttons&7, &5levers&7, &5plates etc.&7?;;;;&4Info: &cIf allowed,
             admins;;&cmight be able to open doors.;;&cEven if open doors setting;;&cdisallows
-            it.;;;;&7Status: %status%'
+            it.;;;;&7Статус: %status%'
   chunkSettings:
     title:
-      chunk: '&e&lChunk Settings'
-      land: '&e&lLand Settings'
+      chunk: '&e&lНастройки участоков'
+      land: '&e&lНастройки поселения'
     notUnlocked:
       name: '&cNot unlocked'
       lore: '&7You have no permission;;&7to edit this setting.'
     applyLand:
-      name: '&dApply to Land'
+      name: '&dApply to Поселение'
       lore: '&7Click here to synchronise the;;&ewhole land &7with these settings.'
     setting:
       entityGriefing:
-        name: '&eEntity griefing'
-        lore: '&7Unlocked: %access%;;;;&7Should entities be able to;;&5grief blocks
-          &7in &ethis chunk&7?;;;;&7Status: %status%'
+        name: '&eEntity грифинг'
+        lore: '&7Разблокировано: %access%;;;;&7Should entities be able to;;&5grief blocks
+          &7in &ethis chunk&7?;;;;&7Статус: %status%'
       pistonGriefing:
-        name: '&ePiston griefing'
-        lore: '&7Unlocked: %access%;;;;&7Should pistons be able to &5grief;;&5blocks
+        name: '&ePiston грифинг'
+        lore: '&7Разблокировано: %access%;;;;&7Should pistons be able to &5grief;;&5blocks
           &7in &ethis chunk&7?;;;;&eInfo: &7This allows pistons from wilderness to;;&7interact
-          in this chunk.;;;;&7Status: %status%'
+          in this chunk.;;;;&7Статус: %status%'
       monsterSpawning:
         name: '&eMonster Spawning'
-        lore: '&7Unlocked: %access%;;;;&7Should monsters be able to &5spawn;;&5directly
+        lore: '&7Разблокировано: %access%;;;;&7Should monsters be able to &5spawn;;&5directly
           &7in &ethis chunk&7?;;;;&4Info: &cMonsters can still walk into;;&cyour land.
-          You''re still able;;&cto spawn monsters via spawners;;&cand spawn eggs.;;;;&7Status:
+          You''re still able;;&cto spawn monsters via spawners;;&cand spawn eggs.;;;;&7Статус:
           %status%'
   playerInvites:
     title: '&6&lYour Invites'
     landInvite:
-      name: '&eLand Invite'
-      lore: '&7Land:&a %land%;;&7Sender:&a %sender%;;&7Sent:&5 %time%'
+      name: '&eПриглашение в поселение'
+      lore: '&7Поселение:&a %land%;;&7Отправитель:&a %sender%;;&7Отправлено:&5 %time%'
     chunkInvite:
-      name: '&eChunk Invite'
-      lore: '&7X:&a %x% &7Z:&a %z%;;&7Land:&a %land%;;&7Sender:&a %sender%;;&7Sent:&5
+      name: '&eПриглашение на участок'
+      lore: '&7X:&a %x% &7Z:&a %z%;;&7Поселение:&a %land%;;&7Отправитель:&a %sender%;;&7Отправлено:&5
         %time%'
   settingsOverview:
     title: '&6&lSelect Setting Type'
