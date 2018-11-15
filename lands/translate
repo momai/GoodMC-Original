@@ -260,34 +260,34 @@ gui:
             животных&7?;;;;&7Статус: %status%'
         playerTrust:
           name: '&eДоверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5trust members&7?;;;;&7Статус:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5доверять участникам&7?;;;;&7Статус:
             %status%'
         playerSetRole:
-          name: '&eУстановить Роль'
+          name: '&eУстановить роль'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5set roles&7?;;;;&4Информация:
-            &cOwners can''t be edited.;;;;&7Статус: %status%'
+            &cВладельцы не могут быть отредактированы.;;;;&7Статус: %status%'
         playerUntrust:
           name: '&eНе доверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5untrust
-            members&7?;;;;&4Информация: &cOwners can''t be untrusted.;;;;&7Статус: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли посетители;;&5не доверять
+            участникам&7?;;;;&4Информация: &cВладельцам нельзя не доверять.;;;;&7Статус: %status%'
         landClaim_land:
-          name: '&eСоздать Поселение'
-          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5claim land&7?;;;;&4Информация:
-            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Статус:
+          name: '&eСоздать поселение'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли поситители;;&5создавать поселение&7?;;;;&4Информация:
+            &cЭто работает только для игроков,;;&cкоторым доверяют во всем поселении.;;;;&7Статус:
             %status%'
         playerTrust_land:
           name: '&eДоверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5trust members
-            &7in the &ewhole land&7?;;;;&7Статус: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли поситители;;&5доверять участникам
+            &7во &eвсем поселении&7?;;;;&7Статус: %status%'
         playerSetRole_land:
-          name: '&eУстановить Роль'
+          name: '&eУстановить роль'
           lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5set roles
-            &7in the &ewhole land&7?;;;;&4Информация: &cOwners can''t be edited.;;;;&7Статус:
+            &7во &eвсем поселении&7?;;;;&4Информация: &cВладельцы не могут быть отредактированы.;;;;&7Статус:
             %status%'
         playerUntrust_land:
           name: '&eНе доверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5untrust members
-            &7in the &ewhole land&7?;;;;&4Информация: &cOwners can''t be untrusted.;;;;&7Статус:
+          lore: '&7Разблокировано: %access%;;;;&7Should vistors be able to;;&5не доверять members
+            &7во &eвсем поселении&7?;;;;&4Информация: &cOwners can''t be untrusted.;;;;&7Статус:
             %status%'
         interact_door:
           name: '&6Open: &eDoors'
@@ -331,34 +331,34 @@ gui:
             %status%'
         playerTrust:
           name: '&eДоверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5trust members&7?;;;;&7Статус:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5доверять участникам&7?;;;;&7Статус:
             %status%'
         playerSetRole:
-          name: '&eУстановить Роль'
+          name: '&eУстановить роль'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5set roles&7?;;;;&4Информация:
-            &cOwners can''t be edited.;;;;&7Статус: %status%'
+            &cВладельцы не могут быть отредактированы.;;;;&7Статус: %status%'
         playerUntrust:
           name: '&eНе доверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5untrust
-            members&7?;;;;&4Информация: &cOwners can''t be untrusted.;;;;&7Статус: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники;;&5не доверять
+            участникам&7?;;;;&4Информация: &cВладельцам нельзя не доверять.;;;;&7Статус: %status%'
         landClaim_land:
-          name: '&eСоздать Поселение'
+          name: '&eСоздать поселение'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5claim land&7?;;;;&7Info:
-            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Статус:
+            &cЭто работает только для игроков,;;&cкоторым доверяют во всем поселении.;;;;&7Статус:
             %status%'
         playerTrust_land:
           name: '&eДоверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5trust members
-            &7in the &ewhole land&7?;;;;&7Статус: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5доверять участникам
+            &7во &eвсем поселении&7?;;;;&7Статус: %status%'
         playerSetRole_land:
-          name: '&eУстановить Роль'
+          name: '&eУстановить роль'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5set roles
-            &7in the &ewhole land&7?;;;;&4Информация: &cOwners can''t be edited.;;;;&7Статус:
+            &7во &eвсем поселении&7?;;;;&4Информация: &cВладельцы не могут быть отредактированы.;;;;&7Статус:
             %status%'
         playerUntrust_land:
           name: '&eНе доверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5untrust members
-            &7in the &ewhole land&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Статус:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли участники able to;;&5не доверять members
+            &7во &eвсем поселении&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Статус:
             %status%'
         interact_door:
           name: '&6Open: &eDoors'
@@ -402,34 +402,34 @@ gui:
             %status%'
         playerTrust:
           name: '&eДоверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы;;&5trust members&7?;;;;&7Статус:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы;;&5доверять участникам&7?;;;;&7Статус:
             %status%'
         playerSetRole:
-          name: '&eУстановить Роль'
+          name: '&eУстановить роль'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы;;&5set roles&7?;;;;&4Информация:
-            &cOwners can''t be edited.;;;;&7Статус: %status%'
+            &cВладельцы не могут быть отредактированы.;;;;&7Статус: %status%'
         playerUntrust:
           name: '&eНе доверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы;;&5untrust members&7?;;;;&4Информация:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы;;&5не доверять members&7?;;;;&4Информация:
             &cOwners can''t be untrusted.;;;;&7Статус: %status%'
         landClaim_land:
-          name: '&eСоздать Поселение'
+          name: '&eСоздать поселение'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы able to;;&5claim land&7?;;;;&7Info:
-            &cThis works only for players;;&cwich are trusted in the whole land.;;;;&7Статус:
+            &cЭто работает только для игроков,;;&cкоторым доверяют во всем поселении.;;;;&7Статус:
             %status%'
         playerTrust_land:
           name: '&eДоверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы able to;;&5trust members
-            &7in the &ewhole land&7?;;;;&7Статус: %status%'
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы able to;;&5доверять участникам
+            &7во &eвсем поселении&7?;;;;&7Статус: %status%'
         playerSetRole_land:
           name: '&eУстановить роль'
           lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы able to;;&5set roles &7in
-            the &ewhole land&7?;;;;&4Информация: &cOwners can''t be edited.;;;;&7Статус:
+            the &ewhole land&7?;;;;&4Информация: &cВладельцы не могут быть отредактированы.;;;;&7Статус:
             %status%'
         playerUntrust_land:
           name: '&eНе доверять игроку'
-          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы able to;;&5untrust members
-            &7in the &ewhole land&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Статус:
+          lore: '&7Разблокировано: %access%;;;;&7Могут ли совладелецы able to;;&5не доверять members
+            &7во &eвсем поселении&7?;;;;&eInfo: &7&lOwners can''t be untrusted.;;;;&7Статус:
             %status%'
         interact_door:
           name: '&6Open: &eDoors'
