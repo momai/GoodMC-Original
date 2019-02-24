@@ -3,11 +3,11 @@ general:
   wNo: '&cНет'
   none: '&cNone'
   now: '&aСейчас'
-  enabled: '&aEnabled'
-  disabled: '&cDisabled'
+  enabled: '&aВключен'
+  disabled: '&cВыключен'
 misc:
   claimblock:
-    name: '&bClaimblock'
+    name: '&bЗаприватить чанк'
     lore:
     - '&7Этот блок позволяет'
     - '&7присоединить чанк'
@@ -497,12 +497,10 @@ gui:
         slot: 19
     f:
       owner:
-        name: '&4Owner &7->&b {player}'
+        name: '&4Руководитель &7->&b {player}'
         lore:
-        - '&7He''s the owner of this'
-        - '&7land. If you have any'
-        - '&7questions, ask him for'
-        - '&7assistance.'
+        - '&7Нажми для редактирования'
+        - '&7или просмотра данной роли.'
         material: PLAYER_HEAD
         slot: 14
     p:
@@ -515,25 +513,25 @@ gui:
     size: 36
     s:
       back:
-        name: '&cBack'
+        name: '&Назад'
         lore:
-        - '&7Go back to'
-        - '&eSelect Role&7.'
+        - '&7Перейти обратно в'
+        - '&eSelect role&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
     f:
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Предыдущая страница'
         lore:
-        - '&7Go to previous page:&9 {previous}'
+        - '&7GПереход на предыдущию страницу:&9 {previous}'
         - ' '
         - '&8- &7Current:&b {current}'
         material: ARROW
         slot: 30
       page_next:
-        name: '&aNext Page'
+        name: '&aСледующая страница'
         lore:
-        - '&7Go to next page:&9 {next}'
+        - '&7Переход на следующую страницу:&9 {next}'
         - ' '
         - '&8- &7Current:&b {current}'
         material: ARROW
