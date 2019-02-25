@@ -86,8 +86,8 @@ help:
 message:
   no-permission: '&8[&aLands&8] &fЭто действие игрокам недоступно.'
   world-invalid: '&8[&aLands&8] &cУказанного мира не существует.'
-  feature-disabled: '&8[&aLands&8] &cThis feature was diabled by an administrator.
-    &7He needs to enable setting&b {setting} &7in config, to let you use this feature.'
+  feature-disabled: '&8[&aLands&8] &cЭта функция отключена администратором.
+    &7Ему нужно включить настройку &b {setting} &7в конфиге,чтобы позволить вам использовать эту функцию.'
   noaccess:
     chunk: '&8[&aLands&8] &cYou don''t have access for this chunk. &8(&7Land:&e {land}
       &7X:&e {x} &7Z:&e {z}&8)&c.'
