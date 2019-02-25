@@ -54,11 +54,15 @@ help:
     leave: '&8/&7Lands leave &8[&aпоселение] &8- &eПокинуть поселение.'
     unclaim: '&8/&7Lands unclaim &8- &eОтсоединить чанк от поселения.'
     delete: '&8/&7Lands delete &8<&aпоселение&8> &8- &eУничтожить поселение.'
-    trust: '&8/&7Lands trust &8<&aник игрока&8> - &eПригласить игрока войти в состав поселния.'
-    untrust: '&8/&7Lands untrust &8[&aник игрока&8] - &eОтменить приглашение игроку войти в состав поселния.'
+    trust: '&8/&7Lands trust &8<&aник игрока&8> - &eПригласить игрока войти в состав
+      поселния.'
+    untrust: '&8/&7Lands untrust &8[&aник игрока&8] - &eОтменить приглашение игроку
+      войти в состав поселния.'
     setRole: '&8/&7Lands setRole &8<&aник игрока&8> <&aроль&8> - &eУстановить роль.'
-    accept: '&8/&7Lands accept &8<&aпоселение&8> - &eПринять приглашение от игрока войти в состав поселния.'
-    deny: '&8/&7Lands deny &8<&aпоселение&8> - &eОтклонить приглашение от игрока войти в состав поселния.'
+    accept: '&8/&7Lands accept &8<&aпоселение&8> - &eПринять приглашение от игрока
+      войти в состав поселния.'
+    deny: '&8/&7Lands deny &8<&aпоселение&8> - &eОтклонить приглашение от игрока войти
+      в состав поселния.'
     view: '&8/&7Lands view &8- &eИнформация про чанк, в котором ты стоишь.'
     menu: '&8/&7Lands menu &8- &eОткрыть меню Lands.'
     setSpawn: '&8/&7Lands setSpawn - &eУстановить спавн в поселении'
@@ -68,8 +72,10 @@ help:
     selection: '&8/&7Lands selection &8- &eВключить выделение.'
     chat: '&8/&7Lands chat &8[&aпоселение&8] <&aсообщение&8>'
     rename: '&8/&7Lands rename <&aназвание&8> - &eПереименовать чанк.'
-    teleport: '&8/&7Lands teleport &8[&aназвание мира&8] <&aX&8> <&aZ&8> - &eТелепоратция на чанк.'
-    invites: '&8/&7Lands invites &8- &eПосмотреть полученные приглашения вступить в состав поселния.'
+    teleport: '&8/&7Lands teleport &8[&aназвание мира&8] <&aX&8> <&aZ&8> - &eТелепоратция
+      на чанк.'
+    invites: '&8/&7Lands invites &8- &eПосмотреть полученные приглашения вступить
+      в состав поселния.'
     info: '&8/&7Lands info &8[&aпоселение&8] - &eПосмотреть информацию о поселении.'
     admin:
       admin: '&8/&7Lands admin &8<&aAction&8> &8- &eAdmin commands'
@@ -198,6 +204,9 @@ command:
     success: '&8[&aLands&8] &7Successful created land&b {land} &7for&b {cost}&7. You
       can claim chunks by executing &8/&aLands claim&7.'
     broadcast: '&8[&aLands&8] &7Land&b {land} &7was created by&b {player}&7.'
+    land-other: '&8[&aLands&8] &cYou''re not allowed to have your own land and be
+      member of an other land. &7You need to leave land&b {land} &7first. An administrator
+      can disable this in config.'
   rename:
     success: '&8[&aLands&8] &7Successful set the new name&b {name} &7for this land
       &8(&7Land:&e {land}&8)&7. You payed&b ${cost}&7.'
