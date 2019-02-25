@@ -113,6 +113,7 @@ gui:
         material: PAPER
         from: 10
         to: 18
+        enabled: true
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -971,6 +972,19 @@ gui:
         material: NAME_TAG
         from: 10
         to: 18
+      land_claim_border:
+        name: '&bClaim Land at Border'
+        lore:
+        - '&7Status: {enabled}'
+        - '&7Unlocked: {unlocked}'
+        - ' '
+        - '&7Allow this role to'
+        - '&7claim chunks for their'
+        - '&7lands directly at your'
+        - '&7border?'
+        material: LEAD
+        from: 10
+        to: 18
     a:
       failure_permission:
         name: '&4Failure: &cNo permission'
@@ -1443,6 +1457,17 @@ gui:
         - ' '
         - '&8- &7Permission:'
         - '&elands.members.<Number>'
+        material: RED_STAINED_GLASS_PANE
+      failure_lands:
+        name: '&4Failure: &bLands Amount'
+        lore:
+        - '&7You can''t join this'
+        - '&7objective, because'
+        - '&7you reached your maximum'
+        - '&7amount of lands you can'
+        - '&7be part of.'
+        - ' '
+        - '&8- &7Your maximum:&e {lands}'
         material: RED_STAINED_GLASS_PANE
     p:
       placeholder_1:
